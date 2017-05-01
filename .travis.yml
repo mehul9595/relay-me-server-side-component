@@ -1,9 +1,8 @@
-image: node:5.11.0
-
-pipelines:
-  default:
-    - step:
-        script: # Modify the commands below to build your repository.
-          - npm --version
-          - npm install
-          - npm test
+before_script:
+  - nvm install 0.10
+  - npm install
+  - npm install -g mocha
+  - npm install -g gulp
+  - . env-ci.sh
+  - cd relayme
+script: gulp test
