@@ -1,4 +1,5 @@
-master build: ![Master build](https://travis-ci.org/codolutions/relay-me-server-side-component.svg?branch=master)
+master branch build: ![Master build](https://travis-ci.org/codolutions/relay-me-server-side-component.svg?branch=master)
+
 release branch build: ![Master build](https://travis-ci.org/codolutions/relay-me-server-side-component.svg?branch=release)
 
 # Relay ME, Server-side component #
