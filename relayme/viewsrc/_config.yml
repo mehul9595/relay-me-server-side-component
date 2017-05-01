@@ -1,0 +1,11 @@
+# Site settings
+title: Relay ME API
+email: relayme@codolutions.com
+description: "Relay ME API"
+baseurl: ""
+url: "http://codolutions.com/relayme"
+destination: ../views
+
+# Build settings
+markdown: kramdown
+permalink: blog/:year/:month/:day/:title

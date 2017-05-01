@@ -1,0 +1,8 @@
+# Site settings
+title: Relay ME, Server-side component
+email: info@codolutions.com
+description: "Relay ME, Server-side component"
+baseurl: ""
+url: "https://relay-me-test-server-side.herokuapp.com/"
+destination: ../output
+

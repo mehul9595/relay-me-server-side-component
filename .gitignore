@@ -1,0 +1,6 @@
+env.sh
+node_modules
+newrelic_agent.log
+.project
+.settings
+.idea

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="block">
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Google Account Details</h2>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-sm-4">
+          <strong>ID</strong>
+        </div>
+        <div class="col-sm-8">
+          <i><%= user.id %></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <strong>Name</strong>
+        </div>
+        <div class="col-sm-8">
+          <i><%= user.displayName %></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <strong>Device Type</strong>
+        </div>
+        <div class="col-sm-8">
+          <i><%= basicUser.deviceType %></i>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-sm-12">
+          <a class="button-link" href="<%= url%>">Continue</a>
+        </div>
+      </div>
+  </div>
+</div>

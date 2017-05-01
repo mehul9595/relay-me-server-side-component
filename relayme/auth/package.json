@@ -1,0 +1,5 @@
+{
+	"name": "relayme.server.auth",
+	"version": "0.0.1",
+	"main": "auth.js"
+}
