@@ -8,7 +8,7 @@ module.exports = function() {
     config.database = {};
 
     // Database
-    config.database.URL = process.env.RELAYME_DATABASE_URL || 'localhost:27017/relayme';
+    config.database.URL = "mongodb://ci:0cF3GC0wIOHt@ds127391.mlab.com:27391/relayme-ci" || 'localhost:27017/relayme';
     config.database.SESSION_STORAGE_SECRET = '$ecr3t!?';
 
     return config;
