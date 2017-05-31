@@ -23,7 +23,7 @@ module.exports = function() {
             || 'http://codolutionstest.com:3000/relayme/server/auth/google/callback';
 
     // Database
-    config.database.URL = process.env.RELAYME_DATABASE_URL || 'localhost:27017/relayme';
+    config.database.URL = "mongodb://relaymongo:relaymongo-$@cluster0-shard-00-00-3lkwz.mongodb.net:27017,cluster0-shard-00-01-3lkwz.mongodb.net:27017,cluster0-shard-00-02-3lkwz.mongodb.net:27017/<DATABASE>?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin" //"mongodb://ci:0cF3GC0wIOHt@ds127391.mlab.com:27391/relayme-ci" || 'mongodb://ci:0cF3GC0wIOHt@ds127391.mlab.com:27391/relayme-ci';
     config.database.COLLECTION_USER = 'user';
     config.database.COLLECTION_APPLICATION_PROPERTY = 'applicationProperty';
 
